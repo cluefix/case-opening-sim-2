@@ -1,0 +1,677 @@
+  'freecase': {
+      'cost': 0,
+      'items': [
+        {'name': 'book', 'value': .25, 'icon': '📒', 'chance': 50},
+        {'name': 'lock', 'value': .50, 'icon': '🔒', 'chance': 30},
+        {'name': 'crayon', 'value': 3, 'icon': '🖍️ ', 'chance': 15},
+        {'name': 'axe', 'value': 5, 'icon': '🪓', 'chance': 10},
+        {'name': 'crystal ball', 'value': 70, 'icon': '🔮', 'chance': 0.1}
+      ]
+  },
+  'rarecase': {
+      'cost': 10,
+      'items': [
+          {'name': 'silver ring', 'value': 10, 'icon': '💍', 'chance': 40},
+          {'name': 'gold necklace', 'value': 200, 'icon': '⛓️', 'chance': 0.1},
+          {'name': 'trash', 'value': 2, 'icon': '🗑️ ', 'chance': 30}
+      ]
+  },
+
+  'commoncase': {
+      'cost': 5,
+      'items': [
+          {'name': 'copper coin', 'value': 2, 'icon': '💰', 'chance': 50},
+          {'name': 'small gem', 'value': 15, 'icon': '💎', 'chance': 10},
+          {'name': 'old key', 'value': 1, 'icon': '🔑', 'chance': 90}
+      ]
+  },
+  'uncommoncase': {
+      'cost': 7,
+      'items': [
+          {'name': 'antique vase', 'value': 15, 'icon': '🏺', 'chance':  15},
+          {'name': 'pickaxe', 'value': 5, 'icon': '⛏️', 'chance': 45},
+          {'name': 'rare stamp', 'value': 12, 'icon': '📬', 'chance': 25}
+      ]
+  },
+
+  'startercase': {
+      'cost': 6,
+      'items': [
+          {'name': 'rusty nail', 'value': 0.5, 'icon': '🔩', 'chance': 30},
+          {'name': 'marble', 'value': 15, 'icon': '🔵', 'chance': 30},
+          {'name': 'toy soldier', 'value': 25, 'icon': '⚔️ ', 'chance': 10},
+          {'name': 'rare mail box', 'value': 560, 'icon': '📬', 'chance': 0.1}
+      ]
+  },
+  'minicase': {
+      'cost': 4,
+      'items': [
+          {'name': 'rubber duck', 'value': 4, 'icon': '🦆', 'chance': 50},
+          {'name': 'glass marble', 'value': 12, 'icon': '🔮', 'chance': 20},
+          {'name': 'playing card', 'value': 3.5, 'icon': '🃏', 'chance': 70}
+      ]
+  },
+  'pen': {
+      'cost': 5,
+      'items': [
+          {'name': 'pen', 'value': 4, 'icon': '🖊️ ', 'chance': 55},
+          {'name': 'fountain pen', 'value': 7, 'icon': '🖋️ ', 'chance': 45},
+          {'name': 'black nib', 'value': 10, 'icon': '✒️ ', 'chance': 45},
+          {'name': 'glass marble', 'value': 100, 'icon': '🔮', 'chance': 0.1}
+
+      ]
+  },
+  'santa': {
+      'cost': 0,
+      'items': [
+          {'name': 'snow man', 'value': 0.1, 'icon': '⛄', 'chance': 99.9},
+          {'name': 'snow man', 'value': 0.1, 'icon': '⛄', 'chance': 0.1},
+          {'name': 'snow man', 'value': 0.1, 'icon': '⛄', 'chance': 0.1},
+          {'name': 'snow man', 'value': 0.1, 'icon': '⛄', 'chance': 0.1},
+          {'name': 'snow man', 'value': 0.1, 'icon': '⛄', 'chance': 0.1},
+          {'name': 'snow man', 'value': 0.1, 'icon': '⛄', 'chance': 0.1},
+          {'name': 'limited santa', 'value': 1000, 'icon': '🎅', 'chance': 0.1}
+      ]
+  },
+  
+'computer': {
+    'cost': 9,
+    'items': [
+        {'name': 'computer screen', 'value': 100, 'icon': '🖥️ ', 'chance': 1},
+        {'name': 'keyboard', 'value': 5, 'icon': '⌨️ ', 'chance': 50},
+        {'name': 'mic', 'value': 20, 'icon': '🎙️ ', 'chance': 30},
+        {'name': 'plug', 'value': 6, 'icon': '🔌', 'chance': 45},
+        {'name': 'floppy disk', 'value': 5, 'icon': '💾', 'chance': 45},
+        {'name': 'computer mouse', 'value': 5, 'icon': '🖱️ ', 'chance': 50},
+        {'name': 'printer', 'value': 40, 'icon': '🖨️ ', 'chance': 5},
+        {'name': 'phone', 'value': 25, 'icon': '📱', 'chance': 25},
+        {'name': 'apple laptop', 'value':250, 'icon': '💻', 'chance': 0.1}
+    ]
+},
+
+  'perm': {
+      'cost': 100,
+      'items': [
+          {'name': 'diamond ring', 'value': 200, 'icon': '💍', 'chance': 25},
+          {'name': 'platinum watch', 'value': 300, 'icon': '⌚', 'chance': 15},
+          {'name': 'trash', 'value': 0.1, 'icon': '🗑️ ', 'chance': 50}
+      ]
+  },
+  'limited': {
+      'cost': 10,
+      'items': [
+      {'name': 'fake diamond', 'value': 9, 'icon': '💎', 'chance': 60},
+      {'name': 'marble', 'value': 15, 'icon': '🔵', 'chance': 30},
+          {'name': 'phone', 'value': 25, 'icon': '📱', 'chance': 10},
+          {'name': 'limited god watch', 'value': 300, 'icon': '⌚', 'chance': 0.5},
+          {'name': 'limited cold face', 'value': 300, 'icon': '🥶', 'chance': 1}
+      ]
+  },
+  'random': {
+      'cost': 1000,
+      'items': [
+          {'name': 'yacht', 'value': 10000, 'icon': '🛥️', 'chance': 2.5},
+          {'name': 'private jet', 'value': 20000, 'icon': '✈️', 'chance': 1},
+          {'name': 'trash', 'value': 0.1, 'icon': '🗑️ ', 'chance': 10}
+      ]
+  },
+  'lose': {
+      'cost': 10000,
+      'items': [  
+          {'name': 'mansion', 'value': 100000, 'icon': '🏰', 'chance': 0.1},
+          {'name': 'luxury car', 'value': 50000, 'icon': '🚗', 'chance': 5},
+          {'name': 'trash', 'value': 0.1, 'icon': '🗑️ ', 'chance': 94.9}
+      ]
+  },
+'frost': {
+    'cost': 1000,
+    'items': [
+        {'name': 'snowFlake', 'value': 500, 'icon': '❄️ ', 'chance': 92.8},
+        {'name': 'ice cube', 'value': 2500, 'icon': '🧊', 'chance': 6},
+        {'name': 'frosty', 'value': 11000, 'icon': '☃️ ', 'chance': 1},
+        {'name': 'nnow Mountain', 'value': 24000, 'icon': '🗻', 'chance': 0.1},
+        {'name': 'ice Cold', 'value': 19000, 'icon': '🥶', 'chance': 0.1}
+    ]
+},
+'lava': {
+    'cost': 35000,
+    'items': [
+        {'name': 'Fire extinguisher', 'value': 10000, 'icon': '🧯', 'chance': 48},
+        {'name': 'fire', 'value': 15000, 'icon': '🔥', 'chance': 30},
+        {'name': 'mad', 'value': 35000, 'icon': '🤬', 'chance': 15},
+        {'name': 'volcano', 'value': 50000, 'icon': '🌋', 'chance': 5},
+        {'name': f'gem #{data}', 'value': 500000, 'icon': '💎', 'chance': 0}
+    ]
+},
+'water': {
+    'cost': 1,
+    'items': [
+        {'name': 'wave', 'value': 150, 'icon': '🌊', 'chance': 0.1},
+        {'name': 'water', 'value': 10, 'icon': '💦', 'chance': 5},
+        {'name': 'trash', 'value': 0.1, 'icon': '🗑️ ', 'chance': 65.2}
+    ]
+},
+  'adventure': {
+      'cost': 40,
+      'items': [
+          {'name': 'compass', 'value': 15, 'icon': '🧭', 'chance': 50},
+          {'name': 'map', 'value': 10, 'icon': '🗺️ ', 'chance': 55},
+          {'name': 'tent', 'value': 80, 'icon': '⛺', 'chance': 10},
+     ]
+  },
+  'mystic': {
+      'cost': 45000,
+      'items': [
+          {'name': 'crystal ball', 'value': 150000, 'icon': '🔮', 'chance': 1},
+          {'name': 'magic potion', 'value': 65000, 'icon': '🧪', 'chance': 5},
+          {'name': 'ancient scroll', 'value': 80000, 'icon': '📜', 'chance': 3},
+          {'name': 'trash', 'value': 100, 'icon': '🗑️ ', 'chance': 30},
+      ]
+  },
+'eternal': {
+    'cost': 90000,
+    'items': [
+        {'name': 'immortality elixir', 'value': 500000, 'icon': '⚗️', 'chance': 1},
+        {'name': 'eternal flame', 'value': 100000, 'icon': '🔥', 'chance': 20},
+        {'name': 'time crystal', 'value': 200000, 'icon': '⏳', 'chance': 10},
+        {'name': 'trash', 'value': 20000, 'icon': '🗑️ ', 'chance': 69},
+    ]
+},
+
+'tools': {
+    'cost': 100,
+    'items': [
+        {'name': 'pickaxe', 'value': 135, 'icon': '⛏️ ', 'chance': 25},
+        {'name': 'gear', 'value':150, 'icon': '⚙️'  , 'chance': 10},
+        {'name': 'wrench', 'value': 70, 'icon': '🔧', 'chance': 50},
+        {'name': 'hammer', 'value': 120, 'icon': '🔨', 'chance': 30},
+    ]
+},
+'bank': {
+    'cost': 15000,
+    'items': [
+        {'name': 'dollor banknote', 'value': 10000, 'icon': '💵', 'chance': 50},
+        {'name': 'yen banknote', 'value': 12000, 'icon': '💴', 'chance': 55},
+        {'name': 'euro banknote', 'value': 15000, 'icon': '💶', 'chance': 30},
+        {'name': 'pound banknote', 'value': 11000, 'icon': '💷', 'chance': 40},
+        {'name': 'money bag', 'value': 15000, 'icon': '💰', 'chance': 25},
+        {'name': 'gem', 'value': 60000, 'icon': '💎', 'chance': 1},
+
+    ]
+},
+'books': {
+    'cost': 50,
+    'items': [
+        {'name': 'yellow book', 'value': 0.1, 'icon': '📒', 'chance': 75},
+        {'name': 'green book', 'value': 25, 'icon': '📗', 'chance': 55},
+        {'name': 'red book', 'value': 60, 'icon': '📕', 'chance': 35},
+        {'name': 'blue book', 'value': 70, 'icon': '📘', 'chance': 15},
+        {'name': 'orange', 'value': 90, 'icon': '📙', 'chance': 5},
+
+    ]
+},
+
+'cars': {
+    'cost': 1500,
+    'items': [
+        {'name': 'red car', 'value': 1000, 'icon': '🚗', 'chance': 50},
+        {'name': 'taxi', 'value': 1200, 'icon': '🚕', 'chance': 40},
+        {'name': 'blue car', 'value': 1200, 'icon': '🚙', 'chance': 40},
+        {'name': 'van', 'value': 1500, 'icon': '🚐', 'chance': 0},
+        {'name': 'gray bus', 'value': 3000, 'icon': '🚌', 'chance': 5},
+        {'name': 'yellow bus', 'value': 4000, 'icon': '🚎', 'chance': 4},
+    ]
+},
+'animals': {
+    'cost': 500,
+    'items': [
+        {'name': 'baby chick', 'value': 350, 'icon': '🐤', 'chance': 40},
+        {'name': 'bird', 'value': 400, 'icon': '🐦‍⬛', 'chance': 15},
+        {'name': 'goose', 'value': 800, 'icon': '🪿', 'chance': 1},
+        {'name': 'duck', 'value': 750, 'icon': '🦆', 'chance': 3},
+    ]
+},
+'flags': {
+    'cost': 20,
+    'items': [
+        {'name': 'white flag', 'value': 10, 'icon': '🏳️', 'chance': 60},
+        {'name': 'black flag', 'value': 15, 'icon': '🏴', 'chance': 50},
+        {'name': 'pirate flag', 'value': 100, 'icon': '🏴‍☠️', 'chance': 1},
+        {'name': 'race flag', 'value': 50, 'icon': '🏁', 'chance': 10},
+    ]
+},
+'games': {
+    'cost': 0,
+    'items': [
+        {'name': '', 'value': 0, 'icon': '', 'chance': 0},
+        {'name': '', 'value': 0, 'icon': '', 'chance': 0},
+        {'name': '', 'value': 0, 'icon': '', 'chance': 0},
+        {'name': '', 'value': 0, 'icon': '', 'chance': 0},
+    ]
+},
+'buildings': {
+    'cost': 0,
+    'items': [
+        {'name': '', 'value': 0, 'icon': '', 'chance': 0},
+        {'name': '', 'value': 0, 'icon': '', 'chance': 0},
+        {'name': '', 'value': 0, 'icon': '', 'chance': 0},
+        {'name': '', 'value': 0, 'icon': '', 'chance': 0},
+    ]
+},
+'ships': {
+    'cost': 0,
+    'items': [
+        {'name': '', 'value': 0, 'icon': '', 'chance': 0},
+        {'name': '', 'value': 0, 'icon': '', 'chance': 0},
+        {'name': '', 'value': 0, 'icon': '', 'chance': 0},
+        {'name': '', 'value': 0, 'icon': '', 'chance': 0},
+    ]
+},
+'clock': {
+    'cost': 0,
+    'items': [
+        {'name': '', 'value': 0, 'icon': '', 'chance': 0},
+        {'name': '', 'value': 0, 'icon': '', 'chance': 0},
+        {'name': '', 'value': 0, 'icon': '', 'chance': 0},
+        {'name': '', 'value': 0, 'icon': '', 'chance': 0},
+    ]
+},
+'signs': {
+    'cost': 0,
+    'items': [
+        {'name': '', 'value': 0, 'icon': '', 'chance': 0},
+        {'name': '', 'value': 0, 'icon': '', 'chance': 0},
+        {'name': '', 'value': 0, 'icon': '', 'chance': 0},
+        {'name': '', 'value': 0, 'icon': '', 'chance': 0},
+    ]
+},
+'balls': {
+    'cost': 0,
+    'items': [
+        {'name': '', 'value': 0, 'icon': '', 'chance': 0},
+        {'name': '', 'value': 0, 'icon': '', 'chance': 0},
+        {'name': '', 'value': 0, 'icon': '', 'chance': 0},
+        {'name': '', 'value': 0, 'icon': '', 'chance': 0},
+    ]
+},
+'meme': {
+    'cost': 1500,
+    'items': [
+        {'name': 'trash bin', 'value': 1000, 'icon': '🗑️', 'chance': 60},
+        {'name': 'robot head', 'value': 1500, 'icon': '🤖', 'chance': 10},
+        {'name': 'huge cat', 'value': 55000, 'icon': '🐈', 'chance': 0.07},
+        {'name': 'titanic dragon ????', 'value': 160000, 'icon': '🐉', 'chance': 0.0005},
+    ]
+},
+'futuristic': {
+    'cost': 70000,
+    'items': [
+        {'name': 'hoverboard', 'value': 80000, 'icon': '🛹', 'chance': 20},
+        {'name': 'cybernetic implant', 'value': 200000, 'icon': '🤖', 'chance': 5},
+        {'name': 'intergalactic spaceship', 'value': 1000000, 'icon': '🚀', 'chance': 0.1},
+        {'name': 'trash', 'value': 500, 'icon': '🗑️', 'chance': 74},
+    ]
+},
+'legendary': {
+    'cost': 600000,
+    'items': [
+        {'name': 'excalibur', 'value': 3000000, 'icon': '⚔️', 'chance': 1},
+        {'name': 'holy grail', 'value': 2500000, 'icon': '🏺', 'chance': 2},
+        {'name': 'mysticamulet', 'value': 600000, 'icon': '🔗', 'chance': 15},
+        {'name': 'trash', 'value': 10000, 'icon': '🗑️ ', 'chance': 50},
+    ]
+},
+'mythical': {
+    'cost': 40000,
+    'items': [
+        {'name': 'dragon', 'value': 100000, 'icon': '🐉', 'chance': 1},
+        {'name': 'phoenix', 'value': 50000, 'icon': '🔥', 'chance': 10},
+        {'name': 'unicorn', 'value': 30000, 'icon': '🦄', 'chance': 25},
+        {'name': 'trash', 'value': 1000, 'icon': '🗑️ ', 'chance': 80},
+    ]
+},
+'supernatural': {
+    'cost': 50000,
+    'items': [
+        {'name': 'vampire fang', 'value': 100000, 'icon': '🧛', 'chance': 10},
+        {'name': 'werewolf claw', 'value': 80000, 'icon': '🐺', 'chance': 20},
+        {'name': 'ghostly apparition', 'value': 120000, 'icon': '👻', 'chance': 5},
+        {'name': 'trash', 'value': 200, 'icon': '🗑️ ', 'chance': 65},
+    ]
+},
+
+'celestial': {
+    'cost': 30000,
+    'items': [
+        {'name': 'constellation map', 'value': 45000, 'icon': '🌌', 'chance': 15},
+        {'name': 'moon rock', 'value': 50000, 'icon': '🌑', 'chance': 5},
+        {'name': 'spacesuit', 'value': 20000, 'icon': '🧑‍🚀', 'chance': 50},
+        {'name': 'alien specimen', 'value': 120000, 'icon': '👽', 'chance': 0.1},
+        {'name': 'star  fragment', 'value': 80000, 'icon': '🌠', 'chance': 2},
+        {'name': 'trash', 'value': 500, 'icon': '🗑️ ', 'chance': 22.5},
+    ]
+},
+'dimensional': {
+    'cost': 18000,
+    'items': [
+        {'name': 'portal gun', 'value': 25000, 'icon': '🔫', 'chance': 10},
+        {'name': 'dimension shard', 'value': 75000, 'icon': '💎', 'chance': 1},
+        {'name': 'time loop coil', 'value': 55000, 'icon': '♾️', 'chance': 7},
+        {'name': 'trash', 'value': 1000, 'icon': '🗑️ ', 'chance': 70},
+    ]
+},
+'treasure': {
+    'cost': 5000,
+    'items': [
+        {'name': 'gold bar', 'value': 25000, 'icon': '🏆', 'chance': 5},
+        {'name': 'sapphire gem', 'value': 35000, 'icon': '💠', 'chance': 1},
+        {'name': 'pirate sword', 'value': 7000, 'icon': '🗡️', 'chance': 40},
+        {'name': 'trash', 'value': 200, 'icon': '🗑️ ', 'chance': 20},
+    ]
+},
+'cryptic': {
+    'cost': 75000,
+    'items': [
+        {'name': 'enchanted relic', 'value': 120000, 'icon': '🔮', 'chance': 10},
+        {'name': 'mystic tome', 'value': 100000, 'icon': '📖', 'chance': 3},
+        {'name': 'phantom amulet', 'value': 85000, 'icon': '🧿', 'chance': 5},
+        {'name': 'trash', 'value': 300, 'icon': '🗑️ ', 'chance': 82},
+    ]
+},
+'warrior': {
+    'cost': 20000,
+    'items': [
+        {'name': 'ancient armour', 'value': 40000, 'icon': '🛡️', 'chance': 20},
+        {'name': 'forged sword', 'value': 30000, 'icon': '⚔️', 'chance': 30},
+        {'name': 'warrior flag', 'value': 25000, 'icon': '🏴‍☠', 'chance': 25},
+        {'name': 'trash', 'value': 100, 'icon': '🗑️ ' , 'chance': 25},
+    ]
+},
+'elemental': {
+    'cost': 30000,
+    'items': [
+        {'name': 'earth crystal', 'value': 35000, 'icon': '🌍', 'chance': 20},
+        {'name': 'air orb', 'value': 40000, 'icon': '💨', 'chance': 15},
+        {'name': 'water talisman', 'value': 30000, 'icon': '💧', 'chance': 25},
+        {'name': 'fire essence', 'value': 70000, 'icon': '🔥', 'chance': 5},
+        {'name': 'trash', 'value': 500, 'icon': '🗑️ ', 'chance': 35},
+    ]
+},
+'explorer': {
+    'cost': 200,
+    'items': [
+        {'name': 'binoculars', 'value': 300, 'icon': '🔭', 'chance': 15},
+        {'name': 'hiking boots', 'value': 250, 'icon': '🥾', 'chance': 25},
+        {'name': 'compass', 'value': 100, 'icon': '🧭', 'chance': 50},
+        {'name': 'trash', 'value': 10, 'icon': '🗑️ ', 'chance': 75},
+    ]
+},
+'gardener': {
+    'cost': 70,
+    'items': [
+        {'name': 'flower seeds', 'value': 50, 'icon': '🌼', 'chance': 50},
+        {'name': 'watering can', 'value': 80, 'icon': '🚿', 'chance': 20},
+        {'name': 'garden gnome', 'value': 100, 'icon': '🧙', 'chance': 15},
+        {'name': 'trash', 'value': 5, 'icon': '🗑️ ', 'chance': 65},
+    ]
+},
+'beach': {
+    'cost': 120,
+    'items': [
+        {'name': 'sunglasses', 'value': 250, 'icon': '🕶️', 'chance': 25},
+        {'name': 'beach ball', 'value': 150, 'icon': '🏐', 'chance': 35},
+        {'name': 'sunscreen', 'value': 59, 'icon': '🧴', 'chance': 60},
+        {'name': 'trash', 'value': 2, 'icon': '🗑️ ', 'chance': 80},
+    ]
+},
+'baker': {
+    'cost': 500,
+    'items': [
+        {'name': 'mixing bowl', 'value': 1000, 'icon': '🥣', 'chance': 1},
+        {'name': 'rolling pin', 'value': 3000, 'icon': '🧑‍🍳', 'chance': 1},
+        {'name': 'oven mitts', 'value': 2000, 'icon': '🧤', 'chance': 1},
+        {'name': 'trash', 'value': 1, 'icon': '🗑️ ', 'chance': 99.9},
+    ]
+},
+'arcade': {
+    'cost': 95,
+    'items': [
+        {'name': 'game tokens', 'value': 250, 'icon': '🎟️', 'chance': 5},
+        {'name': 'plush toy', 'value': 125, 'icon': '🧸', 'chance': 28},
+        {'name': 'arcade ticket', 'value': 90, 'icon': '🎫', 'chance': 65},
+        {'name': 'trash', 'value': 2, 'icon': '🗑️ ', 'chance': 85},
+    ]
+},
+
+'hobbylist': {
+    'cost': 200,
+    'items': [
+        {'name': 'model paint', 'value': 350, 'icon': '🎨', 'chance': 50},
+        {'name': 'knitting yarn', 'value': 150, 'icon': '🧶', 'chance': 50},
+        {'name': 'toy car', 'value': 100, 'icon': '🚗', 'chance': 50},
+    ]
+},
+'musician': {
+    'cost': 500,
+    'items': [
+        {'name': 'guitar pick', 'value': 00.1, 'icon': '🎸', 'chance': 99.9},
+        {'name': 'sheet music', 'value': 4000, 'icon': '🎼', 'chance': 0.1},
+        {'name': 'microphone', 'value': 5000, 'icon': '🎤', 'chance': 0.1},
+    ]
+},
+'chef': {
+    'cost': 15,
+    'items': [
+        {'name': 'chef hat', 'value': 25, 'icon': '🧑‍🍳', 'chance': 25},
+        {'name': 'spatula', 'value': 15, 'icon': '🍳', 'chance': 60},
+        {'name': 'apron', 'value': 10, 'icon': '👨‍🍳', 'chance': 75},
+    ]
+},
+'gamer': {
+    'cost': 300,
+    'items': [
+        {'name': 'game controller', 'value': 500, 'icon': '🎮', 'chance': 25},
+        {'name': 'headset', 'value': 800, 'icon': '🎧', 'chance': 5},
+        {'name': 'gaming mouse', 'value': 250, 'icon': '🖱️ ', 'chance': 45},
+    ]
+},
+'artist': {
+    'cost': 60,
+    'items': [
+        {'name': 'canvas', 'value': 50, 'icon': '🖼️', 'chance': 50},
+        {'name': 'brushes', 'value': 30, 'icon': '🖌️', 'chance': 70},
+        {'name': 'easel', 'value': 85, 'icon': '🎨', 'chance': 25},
+    ]
+},
+'fitness': {
+    'cost': 400,
+    'items': [
+        {'name': 'dumbbell', 'value': 350, 'icon': '🏋️', 'chance': 70},
+        {'name': 'yoga mat', 'value': 300, 'icon': '🧘', 'chance': 75},
+        {'name': 'jump rope', 'value': 600, 'icon': '➰', 'chance': 5},
+    ]
+},
+'techie': {
+    'cost': 700,
+    'items': [
+        {'name': 'floppy disk', 'value': 550, 'icon': '💾', 'chance': 55},
+        {'name': 'smart watch', 'value': 900, 'icon': '⌚', 'chance': 15},
+        {'name': 'tablet', 'value': 1000, 'icon': '📱', 'chance': 5},
+    ]
+},
+'writer': {
+    'cost': 150,
+    'items': [
+        {'name': 'fountain pen', 'value': 40, 'icon': '✒️', 'chance': 70},
+        {'name': 'notebook', 'value': 50, 'icon': '📓', 'chance': 80},
+        {'name': 'typewriter', 'value': 180, 'icon': '🖨️', 'chance': 25},
+    ]
+},
+'collector': {
+    'cost': 500,
+    'items': [
+        {'name': 'rare coin', 'value': 800, 'icon': '🥮', 'chance': 10},
+        {'name': 'stamps', 'value': 680, 'icon': '📬', 'chance': 25},
+        {'name': 'vintage toy', 'value': 400, 'icon': '🧸', 'chance': 65},
+    ]
+},
+'traveler': {
+    'cost': 600,
+    'items': [
+        {'name': 'backpack', 'value': 1500, 'icon': '🎒', 'chance': 1},
+        {'name': 'travel guide', 'value': 750, 'icon': '📚', 'chance': 15},
+        {'name': 'world map', 'value': 450, 'icon': '🗺️', 'chance': 45},
+    ]
+},
+'angler': {
+    'cost': 70,
+    'items': [
+        {'name': 'fishing rod', 'value': 100, 'icon': '🎣', 'chance': 15},
+        {'name': 'tackle box', 'value': 85, 'icon': '🧰', 'chance': 25},
+        {'name': 'fishing hat', 'value': 54, 'icon': '👒', 'chance': 50},
+    ]
+},
+'mechanic': {
+    'cost': 70,
+    'items': [
+        {'name': 'wrench', 'value': 90, 'icon': '🔧', 'chance': 25},
+        {'name': 'screwdriver', 'value': 60, 'icon': '🖋️', 'chance': 60},
+        {'name': 'car battery', 'value': 150, 'icon': '🔋', 'chance': 15},
+    ]
+},
+'photographer': {
+    'cost': 150,
+    'items': [
+        {'name': 'camera lens', 'value': 260, 'icon': '📸', 'chance': 10},
+        {'name': 'tripod', 'value': 200, 'icon': '📷', 'chance': 15},
+        {'name': 'memory card', 'value': 130, 'icon': '💳', 'chance': 75},
+    ]
+},
+'cyclist': {
+    'cost': 20,
+    'items': [
+        {'name': 'bicycle helmet', 'value': 70, 'icon': '⛑️', 'chance': 10},
+        {'name': 'bike pump', 'value': 25, 'icon': '🗜️', 'chance': 50},
+        {'name': 'water bottle', 'value': 10, 'icon': '🚰', 'chance': 55},
+    ]
+},
+'superhero': {
+    'cost': 400,
+    'items': [
+        {'name': 'cape', 'value': 300, 'icon': '🦸', 'chance': 50},
+        {'name': 'mask', 'value': 250, 'icon': '🦹', 'chance': 60},
+        {'name': 'utility belt', 'value': 450, 'icon': '🧗', 'chance': 40},
+    ]
+},
+
+'antiquarian': {
+    'cost': 20000,
+    'items': [
+        {'name': 'ancient manuscript', 'value': 15000, 'icon': '📜', 'chance': 15},
+        {'name': 'rare artifact', 'value': 100000, 'icon': '🏺', 'chance': 0.7},
+        {'name': 'antique jewelry', 'value': 65000, 'icon': '💍', 'chance': 3.5},
+    ]
+},
+'tycoon': {
+    'cost': 100000,
+    'items': [
+        {'name': 'stock certificates', 'value': 200000, 'icon': '📈', 'chance': 7},
+        {'name': 'gold ingot', 'value': 150000, 'icon': '🥇', 'chance': 20},
+        {'name': 'luxury watch', 'value': 85000, 'icon': '⌚', 'chance': 30},
+    ]
+},
+'masterartist': {
+    'cost': 30000,
+    'items': [
+        {'name': 'priceless painting', 'value': 70000, 'icon': '🖼️', 'chance': 5},
+        {'name': 'sculpture masterpiece', 'value': 50000, 'icon': '🗿', 'chance': 10},
+        {'name': 'vintage art supplies', 'value': 25000, 'icon': '🖌️', 'chance': 30},
+    ]
+},
+'highroller': {
+    'cost': 250000,
+    'items': [
+        {'name': 'diamond chips', 'value': 120000, 'icon': '💎', 'chance': 35},
+        {'name': 'platinum card', 'value': 190000, 'icon': '💳', 'chance': 20},
+        {'name': 'luxury car keys', 'value': 350000, 'icon': '🚗', 'chance': 5},
+    ]
+},
+ 'astronaut': {
+     'cost': 100000,
+     'items': [
+         {'name': 'moon alien', 'value': 250000, 'icon': '👽', 'chance': 15},
+         {'name': 'space shuttle model', 'value': 150000, 'icon': '🚀', 'chance': 25},
+         {'name': 'astronaut autograph', 'value': 80000, 'icon': '✍️ ', 'chance': 35},
+     ]
+ },
+ 'emoji': {
+     'cost': 500000,
+     'items': [
+         {'name': 'iced', 'value': 1000000, 'icon': '🥶 ', 'chance': 1},
+         {'name': 'mad', 'value': 670000, 'icon': '🤬', 'chance': 10},
+         {'name': 'uncolored face', 'value': 120000, 'icon': '☹', 'chance': 90},
+     ]
+ },
+ 'old': {
+     'cost': 7000000,
+     'items': [
+         {'name': 'dino dna', 'value': 10000000, 'icon': '🧬', 'chance': 10},
+         {'name': 'really old scroll', 'value': 7000000, 'icon': '📜', 'chance': 25},
+         {'name': '1352 news paper', 'value': 5000000, 'icon': '📰', 'chance': 35},
+     ]
+ },
+ '2050': {
+     'cost': 10000000,
+     'items': [
+         {'name': 'gold_dvd', 'value': 15000000, 'icon': '📀', 'chance': 40},
+         {'name': 'floppy disk', 'value': 1200000, 'icon': '💾', 'chance': 60},
+     ]
+ },
+ 'key': {
+     'cost': 100000000,
+     'items': [
+         {'name': 'gold/coal building', 'value': 1953942552, 'icon': '🕋 ', 'chance': 1},
+         {'name': 'plane', 'value': 73477343, 'icon': '🚅', 'chance': 50},
+         {'name': 'building', 'value': 1200400, 'icon': '🏛', 'chance': 70},
+     ]
+ },
+'monarch': {
+    'cost': 20000,
+    'items': [
+        {'name': 'crown', 'value': 50000, 'icon': '👑', 'chance': 20},
+        {'name': 'royal scepter', 'value': 30000, 'icon': '🏰', 'chance': 30},
+        {'name': 'throne', 'value': 25000, 'icon': '🪑', 'chance': 25},
+    ]
+},
+'siliconmagnate': {
+    'cost': 30000,
+    'items': [
+        {'name': 'latest martphone', 'value': 15000, 'icon': '📱', 'chance': 50},
+        {'name': 'high-end laptop', 'value': 60000, 'icon': '💻', 'chance': 2},
+        {'name': 'smart home system', 'value': 45000, 'icon': '🏠', 'chance': 15},
+    ]
+},
+'hedgefundmanager': {
+    'cost': 25000,
+    'items': [
+        {'name': 'luxury briefcase', 'value': 10000, 'icon': '💼', 'chance': 50},
+        {'name': 'business jet model', 'value': 30000, 'icon': '✈️', 'chance': 20},
+        {'name': 'goldbar', 'value': 25000, 'icon': '🥇', 'chance': 30},
+    ]
+},
+'realestatemogul': {
+    'cost': 28000,
+    'items': [
+        {'name': 'model villa', 'value': 20000, 'icon': '🏘️', 'chance': 20},
+        {'name': 'private island map', 'value': 40000, 'icon': '🏝️', 'chance': 15},
+        {'name': 'luxury apartment keys', 'value': 30000, 'icon': '🔑', 'chance': 25},
+    ]
+},
+'venturecapitalist': {
+    'cost': 35000,
+    'items': [
+        {'name': 'start up hares', 'value': 60000, 'icon': '📈', 'chance': 20},
+        {'name': 'investment portfolio', 'value': 15000, 'icon': '🗂️', 'chance': 30},
+        {'name': 'networking club membership', 'value': 25000, 'icon': '🔗', 'chance': 50},
+    ]
+},
